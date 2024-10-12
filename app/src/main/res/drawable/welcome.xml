@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Белый фон прямоугольника -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Черная обводка -->
+    <stroke
+        android:width="4dp"
+        android:color="@android:color/black" />
+
+    <!-- Радиус углов (если нужен) -->
+    <corners android:radius="0dp" />
+</shape>

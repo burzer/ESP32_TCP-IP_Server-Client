@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="buttonColor">#4CAF50</color> <!-- Зеленый цвет для кнопок -->
+        <color name="backgroundColor">#F5F5F5</color> <!-- Светлый фон -->
+        <color name="textColor">#FFFFFF</color> <!-- Белый цвет текста -->
+        <color name="buttonOffColor">#F44336</color> <!-- Красный для кнопки "Off" -->
+
+
+
+    <color name="backGround">#B2ABBF</color>
+    <color name="textDefault">#FF000000</color>
+    <color name="textLets">#DA4167</color>
+    <color name="textMessage">#2A9D8F</color>
+
+
+
+
+
+</resources>

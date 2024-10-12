@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4CAF50"/> <!-- Цвет кнопки -->
+    <corners android:radius="100dp"/>  <!-- Радиус углов для круга -->
+</shape>

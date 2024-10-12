@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="331dp"
+        android:layout_height="100dp"
+
+        android:layout_margin="20dp"
+
+        android:layout_marginTop="4dp"
+        android:background="@drawable/welcome"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:padding="16dp"
+        android:text="WELCOME"
+        android:textColor="@color/textDefault"
+
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome_text2"
+        android:layout_width="331dp"
+        android:layout_height="100dp"
+
+        android:layout_margin="20dp"
+
+        android:layout_marginTop="44dp"
+        android:background="@drawable/welcome"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:padding="16dp"
+        android:text="WELCOME"
+        android:textColor="@color/textDefault"
+
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bakc_text"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/welcome"
+        android:elevation="4dp"
+
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:padding="16dp"
+        android:rotation="0"
+        android:text="BACK"
+        android:textColor="@color/textDefault"
+
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text"/>
+
+    <TextView
+        android:id="@+id/lets_enter_text"
+        android:layout_width="306dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/welcome"
+        android:gravity="center"
+
+        android:text="Let’s enter"
+        android:textColor="@color/textLets"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bakc_text" />
+
+    <EditText
+        android:id="@+id/editTextIp"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ip_port"
+        android:gravity="center"
+        android:hint="Internet Protocol"
+
+        android:padding="12dp"
+        android:textColorHint="@color/textDefault"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lets_enter_text" />
+
+    <EditText
+        android:id="@+id/editTextPort"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ip_port"
+        android:gravity="center"
+        android:hint="Port"
+        android:padding="12dp"
+        android:textColorHint="@color/textDefault"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextIp" />
+
+    <TextView
+        android:id="@+id/message_input2"
+        android:layout_marginTop="22dp"
+
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:gravity="center"
+
+        android:padding="12dp"
+        android:textColorHint="@color/textDefault"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPort" />
+
+    <Button
+        android:id="@+id/buttonConnect"
+
+
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:background="@drawable/play"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColorHint="@color/textDefault"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/message_input2"
+        app:layout_constraintEnd_toEndOf="@+id/message_input2"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/message_input2"
+        app:layout_constraintTop_toTopOf="@+id/message_input2"
+        app:layout_constraintVertical_bias="0.51" />
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="316dp"
+        android:layout_height="71dp"
+        android:background="@drawable/welcome"
+        android:gravity="center"
+
+        android:text=""
+        android:textColor="@color/textMessage"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_input2"
+        app:layout_constraintVertical_bias="0.904" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
